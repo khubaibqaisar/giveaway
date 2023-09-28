@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://trendwave.tech/giveaway/` + encodeURI(path as string)
+					`https://trendwave.tech/` + encodeURI(path as string)
 				}`,
 			},
 		};
